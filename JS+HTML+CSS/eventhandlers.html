@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Event Handling in JS
+        </title>
+        <link rel="stylesheet" href="event.css">
+    </head>
+    <body>
+       <div class="container">
+            <h1>Event Handling in JS</h1>
+
+            <label>Username:</label>
+            <input type="text" placeholder="Enter a Username" id="username">
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter a Password" id="password">
+
+            <button onclick="Event()">Login</button>
+
+            <p id="result"></p>
+        </div>
+
+        <script>
+            function Event(){
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                if(username == "Vishesh" && password == "vishesh@123"){
+                    document.getElementById("result").innerHTML = "Login Successful";
+                }
+                else{
+                    document.getElementById("result").innerHTML = "Login Failed";
+                }
+
+            }
+        </script>
+    </body>
+</html>

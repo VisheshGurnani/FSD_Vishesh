@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            Simple Interest App
+        </title>
+        <style>
+            body{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 450px;
+                background-color: black;
+                color: white;
+            }
+            h1{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: xx-large;
+                color: white;
+
+            }
+            script{
+                margin: 400px;
+                color: white;
+            }
+            fieldset{
+                border: 2px solid rgb(255, 255, 255);
+                width: 300px;
+                margin-left: 800px;
+                color: white;
+                padding: 45px;
+                height: 85px;
+                font-size: large;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Simple Interest App in JS</h1>
+        <fieldset>
+             <script>
+
+                let p_amount = Number(prompt("Enter the principal amount:"));
+                let time = Number(prompt("Enter the time in months:"));
+                let rate = Number(prompt("Enter the rate of interest:"));
+
+                let si = (p_amount*time*rate)/100;
+
+                document.write("The Principal Amount is: " +p_amount + "<br>")
+                document.write("The Time in months is: " +time + "<br>")
+                document.write("The rate of interest is: " +rate + "<br>");
+
+                document.write("The simple interest is: " +si);
+
+            </script>
+        </fieldset>
+    
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <head> 
+        <title>
+            Document Object Model
+        </title>
+    </head>
+
+    <body>
+        <h1>Document Object Model</h1>
+
+        <!-- <p id="DOM">
+            Wlecome to DOM
+        </p> -->
+        <p id="Name">What is your name?</p>
+        <button onclick="Change()">Click me</button>
+    
+        <script>
+            function Change (){
+                document.getElementById('Name').style.color = "green";
+                document.getElementById('Name').innerHTML = "My name is Vishesh Gurnani";
+
+            }
+        </script>
+    </body>
+</html>

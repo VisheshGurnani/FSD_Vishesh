@@ -1,0 +1,24 @@
+JAVA SCRIPT: rjs, ejs, njs, vjs...etc (14+ types) 
+Creator: Brenden Eich 
+Worked in: Netscape communication 
+Created between 1995-1997 
+Took 10 days to create 
+
+Past Names: MOCHA, LiveScript, EcmaScript, TypeScript, JavaScript 
+Uses: Can create dynamic and responsive webpages 
+Supports OOPS as well 
+
+
+3 types of variables in JS: 
+VAR: Updation and Re-Declaration is possible (FIRST EVER)
+LET: Updation is possible (NEWER)
+CONST: No Updation possible
+
+Datatypes in JS: 
+Numbers
+String
+Character
+Boolean 
+Float
+Double 
+

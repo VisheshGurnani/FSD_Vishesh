@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Valentine's Week Calendar</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("./ChatGPT Image Feb 2, 2026, 12_12_18 PM.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card{
+            background: rgba(255, 240, 250, 0.85);
+            padding: 45px 65px;
+            border-radius: 30px;
+            text-align: center;
+
+            border: 5px solid rgb(120, 15, 211);
+            box-shadow: 0 0 50px rgba(120,15,211,0.4);
+
+            color: rgb(120, 15, 211);
+            max-width: 500px;
+        }
+
+        h1{
+            margin-bottom: 25px;
+        }
+
+        input{
+            width: 240px;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 12px;
+            border: 2px solid rgb(120,15,211);
+            outline: none;
+            margin-bottom: 20px;
+        }
+
+        button{
+            padding: 12px 28px;
+            font-size: 18px;
+            border-radius: 14px;
+            border: none;
+            cursor: pointer;
+
+            background: rgb(120,15,211);
+            color: white;
+        }
+
+        button:hover{
+            background: rgb(150,30,230);
+        }
+
+        #result{
+            margin-top: 25px;
+            font-size: 22px;
+            min-height: 30px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>💐Valentine's Week Calendar💐</h1>
+
+        <input type="number" id="dayInput" placeholder="Enter day (1-8)" min="1" max="8">
+
+        <br>
+
+        <button onclick="checkDay()">Check Day</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function checkDay(){
+            let a = Number(document.getElementById("dayInput").value);
+            let resultText = "";
+
+            switch(a){
+                case 1:
+                    resultText = "🌹 It is Rose Day today 🌹";
+                    break;
+                case 2:
+                    resultText = "💍 It is Propose Day today 💍";
+                    break;
+                case 3:
+                    resultText = "🍫 It is Chocolate Day today 🍫";
+                    break;
+                case 4:
+                    resultText = "🧸 It is Teddy Day today 🧸";
+                    break;
+                case 5:
+                    resultText = "🎁 It is Promise Day today 🎁";
+                    break;
+                case 6:
+                    resultText = "🫂 It is Hug Day today 🫂";
+                    break;
+                case 7:
+                    resultText = "😘 It is Kiss Day today 😘";
+                    break;
+                case 8:
+                    resultText = "🎉 It is finally Valentine's Day today 🎉";
+                    break;
+                default:
+                    resultText = "❌ Please enter a number between 1 and 8";
+            }
+
+            document.getElementById("result").textContent = resultText;
+        }
+    </script>
+
+</body>
+</html>

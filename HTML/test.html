@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>Travel Registration Form</title> 
+        <style>
+            legend{
+                text-align: center;
+             }
+                fieldset{
+                    width: 800px;
+                    margin-right: 550px;
+                    margin-top: 150px;
+                    margin-bottom: 150px;
+                    margin-left: 550px;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    border-radius: 10px;
+                    background-color: rgb(187, 184, 184);
+                }
+                input{
+                margin-left: 10px;
+                margin-right: 10px;
+                background-color: rgb(226, 243, 128);
+                border:none;
+                height: 30px;
+                border-radius: 5px;
+            }
+            .l1 , .i1{
+                margin-bottom: 10px;
+                margin-left: 40px;
+
+            }
+            .i10 , .l10{
+                margin-left: 10px;
+            }
+            .l1{
+                margin-left: 100px;
+            }
+            .l2{
+                margin-left: 100px;
+            }
+            .i2{
+               
+                margin-left: 42px;
+                 width : 404px;
+            }
+            .l2 , .i2{
+                margin-bottom: 10px;
+            }
+            .l3{
+                margin-left: 100px;
+            }
+            .i3{
+                margin-left: 10px;
+                width : 404px;
+            }
+            .l3 , .i3{
+                margin-bottom: 10px;
+            }
+            .l4{
+                margin-left: 100px;
+            }
+            .l4 , .i4{
+                margin-bottom: 10px;
+            }
+            .i4{
+                width : 405px;
+            }
+            .l5{
+                margin-left: 100px;
+            }
+            .l5 , .i5{
+                margin-bottom: 10px;
+            }
+            .l6{
+                margin-left: 100px;
+            }
+            .l6 , .i6{
+                margin-bottom: 10px;
+            }
+            .i6{
+                width : 404px;
+                margin-left: 48px;
+            }
+            .l7{
+                margin-left: 100px;
+            }
+            .l7 , .i7{
+                margin-bottom: 10px;
+            }
+            .i7{
+                width : 404px;
+                margin-left: 38px;
+            }
+            .l8{
+                margin-left: 100px;
+            }
+            .l8 , .i8{
+                margin-bottom: 10px;
+            }
+            .i8{
+                width : 404px;
+                margin-left: 34px;
+            }
+            .l9{
+                margin-left: 100px;
+            }
+            .i9{
+                width : 404px;
+                margin-left:10px;
+            }
+            .l9 , .i9{
+                margin-bottom: 10px;
+            }
+            button{
+                margin-left: 400px;
+                padding: 10px;
+                width: 80px;
+                border-radius: 5px;
+                background-color: lightgreen;
+            }
+            button:hover{
+                background-color: rgb(182, 177, 180);
+            }
+            select{
+                margin-left: 250px;
+                margin-bottom: 20px;
+                width : 300px;
+                height: 40px;
+                background-color: rosybrown;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+           <fieldset> <legend><b>Travel Reg Form</b></legend>
+            <select >
+                <option>--Select Your Travel Mode--</option>
+                <option> Air</option>
+                <option> Train</option>
+                <option> Road</option>
+            </select><br><br>
+            <label class="l1">From:</label>
+            <input class="i1" type="text" placeholder="Enter your city here" required>
+            <label class="l10">To:</label>
+            <input class="i10" type="text" placeholder="Enter your destination city here" required><br><br>
+            <label class ="l2">Date :</label>
+            <input class="i2" type ="date" required><br><br>
+            <label class="l3">FirstName:</label>
+            <input class="i3" type="text" required><br><br>
+            <label class="l4">LastName:</label>
+            <input class="i4" type="text" required><br><br>
+            <label class="l5"> Gender: </label>
+            Male <input type="radio"  name="gender" value="Male" required>
+            female<input type="radio" name="gender" value ="Female" required>
+            others<input type="radio" name="gender" value ="others" required><br>
+            <br>
+            <label class="l6">Age:</label>
+            <input class="i6" type="number" required><br><br>
+            <label class="l7">ph no:</label>
+            <input class="i7" type="number" required><br><br>
+            <label class="l8">Email:</label>
+            <input class="i8" type="email" required>
+            <br><br>
+            <label class="l9">password:</label>
+            <input class="i9" type="password" required><br><br>
+            <button>Reg in</button>
+        </fieldset><br>
+        </form>
+        
+    </body>
+</html>

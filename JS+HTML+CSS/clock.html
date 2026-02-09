@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Digital Clock in JS</title>
+        <style>
+            body {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 420px;
+                background-color: black;
+                color: rgb(93, 146, 173);
+                font-family: monospace;
+            }
+
+            #clock{
+                color: rgb(93, 146, 173);
+                font-family: monospace;
+                font-size: 1.8em;
+                letter-spacing: 3px;
+            }
+            fieldset{
+                border: none;
+                margin-left: 700px;
+                margin-bottom: auto;
+                margin-top: auto;
+                padding: 0;
+                border-radius: 20px;
+                width: 600px ;
+                text-align: center;
+                box-shadow:
+                    0 0 40px rgba(64,224,208,0.6),
+                    0 0 90px rgba(64,224,208,0.4);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <fieldset>
+        <h1>Digital Clock</h1>
+
+        <h2 id = "clock"></h2>
+
+        <script>
+            function Time() {
+                let now = new Date();
+                let hrs = now.getHours();
+                let min = now.getMinutes();
+                let sec = now.getSeconds();
+
+                if (hrs < 10) {
+                    hrs = "0" + hrs;
+                }
+                if (min < 10) {
+                    min = "0" + min;
+                }
+                if (sec < 10) {
+                    sec = "0" + sec;
+                }
+
+                let digital = hrs + ":" + min + ":" + sec;
+                document.getElementById("clock").textContent = digital;
+            }
+            Time();
+            setInterval(Time, 1000);
+        </script>
+        </fieldset>
+    </body>
+</html>

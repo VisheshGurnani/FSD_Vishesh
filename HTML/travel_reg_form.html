@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Travel Registration Form</title>
+        <style>
+            img{
+                display: block;
+                padding-top: 20px;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-left: 43px;
+                margin-right: 43px;
+                width: 300px;
+                height: 300px;
+                border-radius: 30%;
+            }
+            fieldset {
+                text-align: center;
+                justify-content: center;
+                padding: 30px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                background-color: #cac7c7;
+                box-shadow: 4px 4px 10px #000;
+            }
+
+            label, input, button {
+                text-align: center;
+                display: block;
+                margin-top: 5px;
+                padding: 8px;
+                width: 100%;
+            }
+
+            input{
+                background-color: bisque;
+                border: none;
+                border-radius: 10px;
+            }
+
+            input[type="radio"] {
+                text-align: center;
+                display: inline-block;
+                width: 10px;
+                margin-right: 10px;
+            }
+
+            button {
+                margin-top: 15px;
+                background-color: #4CAF50;
+                color: white;
+                cursor: pointer;
+                border-radius: 10px;
+                border: none;
+            }
+
+            button:hover {
+                background-color: #316733;
+            }
+
+            select{
+                text-align: center;
+                margin-left: 15px;
+                padding: 8px;
+                width: 50%;
+                height: 35px;
+                background-color: #ceede6;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 250px;
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                background-size: cover;
+                background-image: url(./ChatGPT\ Image\ Jan\ 14\,\ 2026\,\ 10_25_38\ PM.png);
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <img src="./ChatGPT Image Jan 14, 2026, 10_22_34 PM.png" >
+                <label>Mode of Transport:</label>
+                <select>
+                    <option>--Select--</option>
+                    <option>Bus</option>
+                    <option>Train</option>
+                    <option>Flight</option>
+                </select>
+                <label>Travelling From:</label>
+                <input type="text" placeholder="Enter Departure City">
+
+                <label>Travelling To:</label>
+                <input type="text" placeholder="Enter Destination City" required>
+
+                <label>Departure Date:</label>
+                <input type="date" required>
+                <label>Return Date:</label>
+                <input type="date" required>
+
+                <label>Name of Passenger:</label>
+                <input type="text" placeholder="Enter Full Name Here" required>
+
+                <label>Age:</label>
+                <input type="number" placeholder="Enter Age Here" required>
+
+                <label>Gender:</label>
+                <input type="radio" name="Gender" value="male" required> Male
+                <input type="radio" name="Gender" value="female" required> Female
+                <input type="radio" name="Gender" value="other" required> Others
+
+                <label>Contact Number:</label>
+                <input type="tel" placeholder="Enter Phone No. Here" required>
+
+                <label>Email ID:</label>
+                <input type="email" placeholder="Enter Email Here" required>
+
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password Here" required>
+
+                <button>Register</button>
+            
+            </fieldset>
+
+        </form>
+
+    </body>
+</html>

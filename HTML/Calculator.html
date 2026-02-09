@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Calculator UI</title>
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        user-select: none;
+    }
+
+    body {
+        margin: 0;
+        height: 100vh;
+        background: rgb(74, 74, 74);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calculator {
+        width: 360px;
+        padding: 18px;
+        background: linear-gradient(rgb(217, 217, 217), #cfcfcf);
+        border-radius: 10px;
+        box-shadow:
+            inset 0 1px 0 #ffffff,
+            0 8px 20px rgba(0,0,0,0.45);
+    }
+
+    .display {
+        height: 60px;
+        margin-bottom: 18px;
+        border-radius: 6px;
+        background: linear-gradient(#ffffff, #ededed);
+        box-shadow:
+            inset 0 2px 6px rgba(0,0,0,0.25),
+            inset 0 -1px 0 #ffffff;
+        border: 2px solid #bfbfbf;
+    }
+
+    .keys {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+    }
+
+    .btn {
+        height: 58px;
+        border-radius: 8px;
+        font-size: 22px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        box-shadow:
+            inset 0 1px 0 rgba(255,255,255,0.8),
+            0 4px 0 rgba(0,0,0,0.35);
+    }
+
+    .btn:active {
+        transform: translateY(2px);
+        box-shadow:
+            inset 0 1px 0 rgba(255,255,255,0.6),
+            0 2px 0 rgba(0,0,0,0.4);
+    }
+
+    .num {
+        background: linear-gradient(#f6f6f6, #e3e3e3);
+        color: #000;
+    }
+
+    .op {
+        background: linear-gradient(#3b3b3b, #2b2b2b);
+        color: #fff;
+    }
+
+    .clear {
+        background: linear-gradient(#e00000, #b80000);
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+<div class="calculator">
+    <div class="display"></div>
+
+    <div class="keys">
+        <button class="btn num">7</button>
+        <button class="btn num">8</button>
+        <button class="btn num">9</button>
+        <button class="btn op">+</button>
+
+        <button class="btn num">4</button>
+        <button class="btn num">5</button>
+        <button class="btn num">6</button>
+        <button class="btn op">−</button>
+
+        <button class="btn num">1</button>
+        <button class="btn num">2</button>
+        <button class="btn num">3</button>
+        <button class="btn op">x</button>
+
+        <button class="btn clear">C</button>
+        <button class="btn num">0</button>
+        <button class="btn op">=</button>
+        <button class="btn op">/</button>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+ExpressJS is a lightweight framework of JS 
+creates minimal-plugin easy apis, routing protocols, and servers 
+
+2010 nov 16 
+TJ Holowaychuk
+inspired by ruby framework called Sinatra 
+
+API: Routing protocols: HTTPS Requests, Res -- Internal Web Server
+
+GPPD - get -- fetch data 
+Get - Fetch Data
+Post - Creating Data
+Put - Update Data
+Delete - Remove Data 
+
+HTTP, HTTPS
+
+
+SQL: Crud
+
+create table Emp insert into()
+
+select *from emp;
+select emp where name = "Raghav"
+

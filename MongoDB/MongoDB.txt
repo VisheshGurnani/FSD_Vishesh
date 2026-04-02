@@ -1,0 +1,21 @@
+Structured Data: Tables
+Unstructured Data: Images, Audios, Videos
+Semi-Structured Data: JSON, CSV, XML, Object 
+
+It is a Semi-structured db, not sql 
+Cloud Computing: Paas Saas Iaas 2007-2009
+New york -10G
+weight merriman and kevin wolt 
+
+
+
+Assignment: 
+Intro of MongoDB
+Requirements (Comm and Compass)
+Difference and Uses of each 
+Installation steps 
+CRUD Operations (with steps and ss)
+conclusion
+
+
+Mongoose: MDO- MOdelling Data Object 

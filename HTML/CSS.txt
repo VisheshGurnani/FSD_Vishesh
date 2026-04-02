@@ -1,0 +1,8 @@
+CSS: Cascading Style Sheet 
+To give styles to the HTML Webpage 
+Hakon Wium Lie
+
+3 Types: 
+    1. Inline: within the same element/tag
+    2. Internal: Withing the "<style>" tag 
+    3: External: the CSS file is separate from the HTML file and must be linked using the "<link>"

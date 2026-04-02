@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: repeat;
+  background-position: center;
+  background-image: url(./66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: rgb(246, 241, 241);
+      }
+
+.logo {
+        background-color: rgb(255, 204, 0);
+        padding: 10px 25px;
+        border-radius: 60px;
+        font-weight: bold;
+        font-size: 22px;
+        margin-left: 370px;
+      }
+
+.nav-links {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        margin-right: 420px;
+        padding: 0;
+      }
+
+.nav-links li {
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+.nav-links li:hover {
+        text-decoration: underline;
+      }
+
+.head{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 50px;
+      }
+
+.Pickup{
+        margin-top: 40px;
+        padding-left: 8px;
+        margin-left: 710px;
+        width: 580px ;
+        height: 60px;
+        border-radius: 5px;
+        border: 0.5px solid grey;
+      }
+
+.Drop{
+        margin-top: 40px;
+        padding-left: 8px;
+        margin-left: 710px;
+        width: 580px ;
+        height: 60px;
+        border-radius: 5px;
+        border: 0.5px solid grey;
+      }
+
+.b1{
+        width: 580px ;
+        height: 60px;
+        background-color: rgb(255, 204, 0);
+        margin-top: 40px;
+        padding-left: 8px;
+        margin-left: 710px;
+        border-radius: 8px;   
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+.form{
+        width: 100%;
+        height: 450px;
+      }
+
+.Servi{
+        background-color: white;
+        padding-top: 1px;
+
+      }
+
+.OS{
+        text-align: left;
+        margin-left: 50px;
+        font-weight: 600;
+        font-size: 48px;
+      }
+
+.Services {
+  padding-top: 80px;
+  margin-left: 370px;
+  padding-bottom: 60px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  display: grid;
+  gap: 80px;
+  margin-top: 100px;
+}
+
+.service-item {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.service-item img {
+  height: 120px;
+}
+
+.service-item p {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.desc{
+        background-color: rgb(247, 248, 250);
+        font-weight: 500px;
+        font-size: 24px;
+        padding-top: 90px;
+      }
+.Ride{
+        text-align: left;
+        margin-left: 420px;
+      }
+
+.ir1{
+        margin-left: 420px;
+        font-size: 28px;
+      }
+
+.b2{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px 25px;
+        border-radius: 60px;
+        font-size: 28px;
+        margin-left: 420px;
+        width: 245px;
+        height: 65px;
+      }
+
+.b21{
+        text-decoration: none;
+        color: white;
+      }
+
+.IR{
+        height: 500px;
+        padding-left: 120px;
+      }
+
+.low{
+        background-color: rgb(247, 248, 250);
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+.IE{
+        height: 500px;
+        padding-left: 450px;
+      }
+
+
+.hours1{
+        background-color: rgb(247, 248, 250);
+        display: flex;
+        font-weight: 500px;
+        font-size: 24px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+      }
+
+.hours2{
+        text-align: left;
+        margin-right: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+
+.hours21{
+        text-align: left;
+        margin-right: 10px;
+        margin-left: 20px;
+  margin-top: 20px;
+}
+
+.earn{
+  text-align: left;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+.b3{
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 60px;
+  font-size: 28px;
+  margin-left: 20px;
+  width: 265px;
+  height: 65px;
+}
+
+.lower{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;        
+}
+
+.desc3{
+  background-color: rgb(255, 255, 255);
+  font-weight: 500px;
+  font-size: 24px;
+  padding-top: 90px;
+}
+
+.safe{
+  text-align: left;
+  margin-left: 420px;
+}
+
+.safe2{
+  margin-left: 420px;
+  font-size: 28px;
+}
+
+.safe3{
+  height: 400px;
+  padding-left: 120px;
+}
+
+.know{
+  color: rgb(30, 75, 162);
+  text-align: left;
+  margin-left: 420px;   
+  text-decoration: none;   
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.download{
+    padding-top: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 400px;
+}
+
+.down{
+    margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.card img {
+    margin-top: 30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+.socials {
+  background-color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+  height: 200px;
+}
+
+.socials hr {
+  width: 95%;
+  margin: 0 auto 40px auto;
+  border: none;
+  height: 1px;
+  background-color: #cfd3d7;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.media img {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.media img:hover {
+  transform: scale(1.15);
+}
+
+.footer {
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+
+.footer-content {
+  text-align: left;
+  display: flex;
+  gap: 120px;
+  margin-left: 0px; 
+}
+
+
+.footer-logo .logo {
+  background-color: rgb(255, 204, 0);
+  padding: 10px 25px;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+}
+
+.footer-links {
+  display: flex;
+  gap: 150px;
+}
+
+.column p {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.column p:hover {
+  text-decoration: underline;
+}
+
+.footer hr {
+  margin: 40px 0 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+}
+
+.c1{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    gap: 35px;
+}
+.logo img{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 156px;
+    height: 35px;
+}
+.searchbar input{
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+.nav-links {
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+    margin-left: 700px;
+}
+.divider1{
+    width: 2px;
+    height: 40px;
+    background: #ccc;
+}
+.nav-icon {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.icon-box {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.material-icons {
+    font-size: 28px;
+}
+.icon-box p {
+    font-size: 14px;
+    margin-top: 4px;
+}
+hr{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.category-bar {
+    margin-top: 10px;
+    background: white;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 12px 0;
+}
+
+.categories li {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.categories li:hover {
+    color: purple;
+}
+.banner img{
+    margin-left: 40px;
+}
+.feature-bar {
+    width: 1920px;
+    margin-left: 40px;
+    background: #f5eef5;
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background: #ccc;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.category2 {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 140px;
+    transition: transform 0.5s ease;
+}
+
+.category img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    background: #f2eaf2; 
+    padding: 10px;
+}
+
+.category span {
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.category:hover{
+    transform: translateY(-30px);
+}
+
+.banner2 img{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 1920px;
+    height: 750px;
+    margin-bottom: 100px;
+}
+/* 
+.banner-content button{
+    width: 180px;
+    height: 80px;
+    top: 50%;
+} */

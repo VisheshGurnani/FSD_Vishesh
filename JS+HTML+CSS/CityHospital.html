@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City Hospital</title>
+        <link rel="stylesheet" href="hospital.css">
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>City Hospital</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>We Care For Your Health</h1>
+    <p>24/7 Emergency and Quality Treatment</p>
+    <button onclick="bookAppointment()">Book Appointment</button>
+</section>
+
+
+<section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+        <div class="card">
+            <h3>Emergency Services</h3>
+            <p>Available 24/7 for urgent medical care.</p>
+        </div>
+        <div class="card">
+            <h3>Surgery</h3>
+            <p>Advanced surgical procedures with expert doctors.</p>
+        </div>
+        <div class="card">
+            <h3>Pharmacy</h3>
+            <p>Fully stocked pharmacy with quality medicines.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="gallery" id="gallery">
+    <h2>Hospital Gallery</h2>
+    <div class="gallery-images">
+        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118" alt="Hospital 1">
+        <img src="./hosp2.jpg" alt="Hospital 2">
+        <img src="./hosp3.jpg" alt="Hospital 3">
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit" class="send-btn">Send Message</button>
+    </form>
+</section>
+
+
+<footer>
+    <p>© 2026 City Hospital | Designed by Student</p>
+</footer>
+
+<script>
+    function bookAppointment() {
+        alert("Your appointment has been booked");
+    }
+
+    function validateForm() {
+        let name = document.getElementById("name").value;
+
+        if (name.trim() === "") {
+            alert("Please enter your name");
+            return false;
+        }
+
+        alert("Message sent successfully!");
+        return true;
+    }
+</script>
+
+</body>
+</html>

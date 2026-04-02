@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="student.css">
+        <title>
+            Student Management System
+        </title>
+    </head>
+    <body>
+        <h1>Student Management System</h1>
+        
+        <input type="text" id="name" placeholder="Enter Student Name"><br><br>
+        <input type="number" id="age" placeholder="Enter Student Age"><br><br>
+        <input type="text" id="course" placeholder="Enter Student Course"><br><br>
+
+        <button onclick="addStudent()">Add Student</button><br><br>
+        <h1>Students Details</h1><br>
+        <ul id="students"></ul>
+        <button onclick="toggleStudents()" id="toggleBtn">Get Students List</button>
+        <script src="./script.js"></script>
+    </body>
+</html>
